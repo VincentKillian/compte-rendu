@@ -2,7 +2,8 @@
 ## Application mobile android en C# avec Xamarin.
 
 Dans ce compte rendu, je vais vous expliquer le fonctionnement de cette application mobile.
-Il y aura plusieurs versions afin de voir les améliorations et différence qu'il y a entre chaqu'une d'elles
+Il y aura plusieurs versions afin de voir les améliorations et différence qu'il y a entre chaqu'une d'elles.
+Le but de cette application est tout simplement le fait de calculer son indice de masse grasse.
 
 > ### Sommaire:
 > - [Installation et configuration de xamarin dans l'éditeur.](cr-coach-installation-configuration.md)
