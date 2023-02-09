@@ -530,7 +530,19 @@ namespace Coach
                 AfficherResultat(poids, taille, age, sexe);
             }
         }
-        private void AfficherResultat(int unPoids, int uneTaille, int unAge, int unSexe)
+    }
+}
+```
+
+Dans ce bout de code on fait:
+- Initialise les propriétès
+- On crée au instance du controle
+- On lie les propriétés avec leur objets graphiques
+- Ajour d'une méthode local "init()" qui va créer une instance de la classe controle.
+- Gestion des événements "btCalculer_Click()" qui transmet à "Afficher résultat" qui va être afficher sur l'interface de l'utilisateur.
+
+```C#
+private void AfficherResultat(int unPoids, int uneTaille, int unAge, int unSexe)
         {
             this.controle.CreerProfil(unPoids, uneTaille, unAge, unSexe);
             double img = this.controle.GetImg();
@@ -552,12 +564,4 @@ namespace Coach
             }
             lbIMG.Text = string.Format("{0:0.00}", img) + "% " + message;
         }
-    }
-}
 ```
-
-Dans ce bout de code on fait:
-- Initialise les propriétès
-- On crée au instance du controle
-- On lie les propriétés avec leur objets graphiques
-
