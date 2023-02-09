@@ -279,7 +279,7 @@ L'interface graphique avec le code de "activity_main.xml":
 ```
 Renvoie comme visuel ceci:
 
-![Coach App](img/coach-app.png)
+![Coach App](img/coach-app.PNG)
 
 
 
